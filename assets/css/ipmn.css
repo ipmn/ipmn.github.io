@@ -92,7 +92,7 @@
   margin-top: 6px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Regular', sans-serif;
 }
 
 .form {
@@ -112,7 +112,7 @@
   float: left;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Regular', sans-serif;
   color: #4a4849;
   line-height: 25px;
   text-align: center;
@@ -130,7 +130,7 @@
   background-color: #771ead;
   background-image: -webkit-linear-gradient(227deg, #4aa4c1, #771ead);
   background-image: linear-gradient(223deg, #4aa4c1, #771ead);
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Bold', sans-serif;
   color: #fff;
   font-size: 24px;
   font-weight: 700;
@@ -183,15 +183,16 @@
 }
 
 .heading-3 {
-  font-family: 'proxima nova webfont', sans-serif;
+  font-family: 'Proximanova Bold', sans-serif;
   color: #242324;
   font-size: 74px;
+  font-weight: 700;
   text-align: center;
   letter-spacing: -1.98px;
 }
 
 .heading-4 {
-  font-family: 'proxima nova webfont', sans-serif;
+  font-family: 'Proximanova Semibold', sans-serif;
   color: #4c9cc0;
   font-size: 28px;
   font-weight: 600;
@@ -206,7 +207,7 @@
 }
 
 .nav-link {
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Regular', sans-serif;
   color: #313131;
   font-size: 13px;
   font-weight: 700;
@@ -232,7 +233,7 @@
 }
 
 .paragraph {
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Regular', sans-serif;
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
@@ -251,13 +252,13 @@
 .text-block-2 {
   margin-top: 32px;
   margin-bottom: 16px;
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Bold', sans-serif;
   font-weight: 700;
   text-align: center;
 }
 
 .text-block-3 {
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Regular', sans-serif;
 }
 
 .success-message {
@@ -266,7 +267,7 @@
   margin-left: auto;
   border: 1px solid #00d408;
   background-color: transparent;
-  font-family: Proximanova, sans-serif;
+  font-family: 'Proximanova Regular', sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -311,19 +312,19 @@
 }
 
 @font-face {
-  font-family: 'Proximanova';
+  font-family: 'Proximanova Regular';
   src: url('/assets/fonts/ProximaNova-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Proximanova';
+  font-family: 'Proximanova Bold';
   src: url('/assets/fonts/ProximaNova-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Proximanova';
+  font-family: 'Proximanova Semibold';
   src: url('/assets/fonts/ProximaNova-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
